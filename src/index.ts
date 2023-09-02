@@ -23,7 +23,7 @@ const HTTP_STATUSES = {
 }
 
 app.get('/', (req, res) => {
-    res.send('HOME PAGE!')
+    res.send('THIS IS HOME PAGE!')
 })
 app.get('/courses', (req, res) => {
     let foundCourses = db.courses
